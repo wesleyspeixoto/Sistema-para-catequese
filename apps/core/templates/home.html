@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+    <meta charset="UTF-8">
+    <title>Catequese Santa Luzia - Menu</title>
+    <link rel="icon" type="image/png" href="{%  static 'img/favicon.png' %}"/>
+    <link rel="stylesheet" href="{% static 'css/menu.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="site-container">
+        <div class="site-pusher">
+            
+            <header class="header">
+            
+            <a href="#" class="header__icon" id="header__icon"></a>
+            <a href="#" class="header__logo">Menu</a>
+            
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">Cadastrar</a>
+                <a href="#">Consultar</a>
+                <a href="#">Alterar</a>
+                <a href="#">Deletar</a>
+            </nav>
+            
+            </header>
+            <div class="site-content">
+                <div class="container">
+                    
+                
+                </div> <!-- END container -->
+            </div> <!-- END site-content -->
+
+        </div> <!-- END site-pusher -->
+    </div> <!-- END site-container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{% static 'js/menu.js' %}"></script>
+</body>
+</html>
